@@ -1,0 +1,22 @@
+
+#banner{
+	width: 320px;
+	height: 50px;
+}
+
+
+
+#legalBtn{	
+	@include pos(290, 0);	
+	width: 30px;
+	height: 10px;
+	display: none;
+	opacity: 0 !important;
+}
+
+
+#olg{
+	width: 51px;
+	height: 47px;
+	@include pos(0, 15);	
+}

@@ -1,0 +1,35 @@
+@import '../../../_common/styles/common.scss';
+
+#banner{
+	width: 970px;
+	height: 250px;
+}
+
+
+
+
+
+#legalBtn{	
+	@include pos(900, 0);	
+	width: 140px;
+	height: 50px;
+	// opacity: 1 !important;
+}
+
+
+
+
+
+#GL_logo{
+	svg{
+		position: absolute;
+		width: 1474px;
+		height:1000px;
+		top: -441px;
+		left: 0px;
+		// opacity:.5;
+	}
+}
+
+
+#L-letter, #L-circ, #G-circ, #G-letter {transform: translateX(-1px);}

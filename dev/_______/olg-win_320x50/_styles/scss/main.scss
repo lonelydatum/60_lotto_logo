@@ -1,0 +1,34 @@
+@import '../../../_common/styles/common.scss';
+
+#banner{
+	width: 320px;
+	height: 50px;
+}
+
+
+
+#legalBtn{	
+	@include pos(290, 0);	
+	width: 30px;
+	height: 10px;
+	display: none;
+	opacity: 0 !important;
+}
+
+
+
+
+
+
+#GL_logo{
+	svg{
+		position: absolute;
+		width: 120px;
+		height:400px;
+		top: -232px;
+		left: 0px;
+	}
+}
+
+
+#L-letter, #L-circ, #G-circ, #G-letter {transform: translateX(-1px);}

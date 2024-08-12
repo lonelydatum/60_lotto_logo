@@ -1,0 +1,20 @@
+@import '../../../_common/styles/common.scss';
+
+#banner{
+ width: 300px;
+ height: 250px;
+}
+
+
+
+#legalBtn{	
+	@include pos(220, 0);	
+	width: 80px;
+	opacity: 0;
+
+}
+
+
+
+
+#L-letter, #L-circ, #G-circ, #G-letter {transform: translateX(-1px);}

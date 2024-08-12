@@ -1,0 +1,49 @@
+
+
+#legalBtn:hover ~ #legalContent {
+	opacity: 1;
+	@include pos-scale(0, 0, 1);
+}
+
+#legalContent{
+	
+	@include pos-scale(0, 30, 1);
+	color: white;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	// padding: 10px;
+	font-size: 10px;
+	z-index: 20;
+	opacity: 0;
+	
+	font-weight: normal;
+	line-height: 15px;
+	transition: .2s ease-out;
+	pointer-events: none;
+}
+
+
+#legalBtn{	
+	@include pos(0, 0);
+	opacity: 0;
+	width: 36px;
+	height: 25px;
+	z-index: 11;
+	background-color: red;
+	display: none;
+}
+
+.hand_1_screen_text{
+	z-index: 99;
+}
+
+#olg{
+	opacity: 0;
+}
+#bluewedge2, #redwedge2 {
+    visibility:hidden;
+}
+
+#bluewedge1, #redwedge1 {
+    transform-origin: 0% 100% !important;
+    @include prefix( translate(0px, 0px) scale(1, 0) );
+}

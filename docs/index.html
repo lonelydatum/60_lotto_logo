@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta charset="utf-8" />
+    <title></title>
+    <style>
+        a{
+            color:#AAA;
+        }
+    </style>
+    <script>
+
+
+
+
+    const BB = { type: "BB", title: "300x250" }
+    const LB = { type: "LB", title: "728x90" }
+    const SS = { type: "SS", title: "160x600" }
+    const M300 = { type: {w:300,h:50}, title: "300x50" }
+    const M320 = { type: {w:320,h:50}, title: "320x50" }
+    const DBB = { type: "DBB", title: "300x600" }
+    const BIG = { type: {w:970,h:250}, title: "970x250" }
+    const SUPER = { type: {w:1000,h:700}, title: "1000x700" }
+
+
+
+
+
+    var data = {
+        title: "LOTTO MAX",
+        banners:[
+          
+             {
+                title:"$10 Bonus",
+                list:[
+                    { ...SS, path: "olg-bonus10_160x600" },
+                     { ...BB, path: "olg-bonus10_300x250" },
+                     { ...LB, path: "olg-bonus10_728x90" },
+                     { ...DBB, path: "olg-bonus10_300x600" },
+                     { ...BIG, path: "olg-bonus10_970x250" },                     
+                     { ...M320, path: "olg-bonus10_320x50" },
+                     
+                ]
+            
+            },
+             {
+                title:"$15 Bonus",
+                list:[
+                    { ...SS, path: "olg-bonus_160x600" },
+                     { ...BB, path: "olg-bonus_300x250" },
+                     { ...LB, path: "olg-bonus_728x90" },
+                     { ...DBB, path: "olg-bonus_300x600" },
+                     { ...BIG, path: "olg-bonus_970x250" },                     
+                     { ...M320, path: "olg-bonus_320x50" },
+                     
+                ]
+            },
+        ]
+    }
+
+    </script>
+</head>
+<body>
+
+<script src="vendor.bundle.js"> </script>
+<script src="bundle.js"> </script>
+
+</body>
+</html>
