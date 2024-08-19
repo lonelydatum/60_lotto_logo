@@ -99,8 +99,6 @@ function start(data) {
 		gsap.from(".man", { scale: .55, duration: 5 });
 	}
 
-	console.log(handShift);
-
 	(0, _proline.olg)("#logo_1");
 
 	tl.from(".t1", xyIn(), "+=.4");
@@ -127,6 +125,9 @@ function start(data) {
 	tl.set(".frame2", { opacity: 1 }, "-=.8");
 	tl.from(".frame_end_text", { duration: .5, opacity: 0 }, "-=.8");
 	tl.from(".frame_end_olg", { duration: .5, opacity: 0 }, "-=.6");
+
+	// tl.add("test")
+
 	tl.from(['#EF_cta'], 0.5, { opacity: 0, y: "+=20'", onComplete: mouseover }, '+=.25');
 
 	// tl.play("test")
@@ -238,7 +239,7 @@ exports.olg = olg;
 
 var _commonJsCommonJs = require('../../_common/js/common.js');
 
-gsap.set("#EF_cta", (0, _commonJsCommonJs.scale)({ x: 150, y: 371 }));
+gsap.set("#EF_cta", (0, _commonJsCommonJs.scale)({ x: 150, y: 331 }));
 (0, _commonJsCommonJs.start)();
 
 module.exports = {};
